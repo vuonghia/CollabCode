@@ -1,0 +1,246 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 13, 2015, 3:18:40 AM
+    Author     : Nghia
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300);
+
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light:400,500,700,300);
+
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+@-webkit-keyframes show-hero {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes show-hero {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes show-text-left {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(30px);
+        transform: translateX(30px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes show-text-left {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(30px);
+        transform: translateX(30px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes show-text-right {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-30px);
+        transform: translateX(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes show-text-right {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-30px);
+        transform: translateX(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes show-circle {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes show-circle {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes show-screenshot {
+    0% {
+        -webkit-transform: translateY(100%) translateY(20px);
+        transform: translateY(100%) translateY(20px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes show-screenshot {
+    0% {
+        -webkit-transform: translateY(100%) translateY(20px);
+        transform: translateY(100%) translateY(20px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes show-header {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes show-header {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.featureBottom {
+    -webkit-animation: show-header 0.25s 0.75s backwards cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation: show-header 0.25s 0.75s backwards cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.featureRight {
+    -webkit-animation: show-text-left 1.25s 2s both cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation: show-text-left 1.25s 2s both cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.featureLeft1 {
+    -webkit-animation: show-text-right 0.5s 1s both cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation: show-text-right 0.5s 1s both cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.featureLeft2 {
+    -webkit-animation: show-text-right 0.75s 1.25s both cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation: show-text-right 0.75s 1.25s both cubic-bezier(0.165, 0.84, 0.44, 1);    
+}
+
+.featureLeft3 {
+    -webkit-animation: show-text-right 1s 1.5s both cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation: show-text-right 1s 1.5s both cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.featureBottom {
+    font-family:'Shadows Into Light' serif;
+    color: #517EA5;
+    text-align: center;
+}
+
+#text-title {
+    font-family:'Shadows Into Light' serif;
+    font-weight: bold;
+    color:#517EA5;
+}
+
+#customized-border {
+    color:#517EA5;
+    /*outline:#337AB7 solid 2px;*/
+    border-radius: 7px;
+    border:2px solid #337AB7;
+}
+
+#scrolling {
+    color:#517EA5;
+    /*outline:#337AB7 solid 2px;*/
+    border-radius: 7px;
+    border:2px solid #337AB7;
+}
+
+body {
+    color: #60615F;
+}
+
+#wrap {
+    word-break: break-all;
+}
+
+a.powered-by-firepad {
+    display: none;
+}
+
+
+html { 
+    height: 100%; 
+}
+body { 
+    margin: 0; height: 100%; position: relative; 
+}
+
+/*Here is where the size of the firepad-container is set*/
+#firepad-container {
+    width: 100%;
+    height: 70%;
+}
